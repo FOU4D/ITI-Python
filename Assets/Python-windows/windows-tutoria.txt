@@ -1,0 +1,48 @@
+https://www.python.org/downloads/windows/
+https://docs.microsoft.com/en-us/windows/python/beginners
+powershell:
+PS C:\Users\fakhr> pip -V
+pip 20.2.3 from c:\users\fakhr\appdata\local\programs\python\python39\lib\site-packages\pip (python 3.9)
+PS C:\Users\fakhr> python -V
+Python 3.9.1
+PS C:\Users\fakhr>
+
+
+PS C:\Users\fakhr> where.exe python
+C:\Users\fakhr\AppData\Local\Programs\Python\Python39\python.exe
+
+
+
+optional if not added to PATH
+
+1. Open the Start menu and start the Run app
+2. Type sysdm.cpl and click OK. This opens the System Properties window.
+
+3. Navigate to the Advanced tab and select Environment Variables.
+
+4. Under System Variables, find and select the Path variable.
+
+5. Click Edit.
+
+6. Select the Variable value field. Add the path to the python.exe file preceded with a semicolon (;). For example, in the image below, we have added “;C:\Python34.”
+
+
+install virtualenv
+
+PS C:\Users\fakhr> pip install virtualenv
+
+
+install anaconda:
+
+
+
+
+https://docs.anaconda.com/anaconda/install/linux/
+
+
+
+
+https://docs.anaconda.com/_downloads/9ee215ff15fde24bf01791d719084950/Anaconda-Starter-Guide.pdf
+
+
+https://www.jetbrains.com/pycharm/download/
